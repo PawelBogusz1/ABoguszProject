@@ -1,6 +1,7 @@
 .footer-container {
 	margin: auto;
 	display: grid;
+	place-items: center;
 	grid-template-columns: 1fr;
 }
 
@@ -31,6 +32,8 @@
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	padding: 1.5rem;
 }
 

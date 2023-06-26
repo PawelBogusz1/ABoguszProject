@@ -1,6 +1,13 @@
 import "./FooterStyles.css";
 import React from "react";
-import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
+import {
+	FaGithub,
+	FaHome,
+	FaLinkedin,
+	FaMailBulk,
+	FaPhone,
+} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
@@ -38,17 +45,23 @@ const Footer = () => {
 
 				<div className='right'>
 					<h4>About me</h4>
-                    <p>Please find below link to my GitHub reposytories and LinkedIn</p>
-                    <div className="social">
-                    <FaGithub
+					<p>Please find below link to my GitHub reposytories and LinkedIn</p>
+					<div className='social'>
+						<Link to='https://github.com/MarcinZbor' target='blank'>
+							<FaGithub
 								size={30}
 								style={{ color: "#fff", marginRight: "1rem" }}
 							/>
-                            <FaLinkedin
+						</Link>
+						<Link
+							to='https://www.linkedin.com/in/marcin-zboro%C5%84-aa9621141/'
+							target='blank'>
+							<FaLinkedin
 								size={30}
 								style={{ color: "#fff", marginRight: "1rem" }}
-							/>                        
-                    </div>
+							/>
+						</Link>
+					</div>
 				</div>
 			</div>
 		</div>
