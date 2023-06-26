@@ -6,6 +6,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <App basename="/portfolio2"/>
+    <App basename="/Portfolio2"/>
   </BrowserRouter>,
 )
