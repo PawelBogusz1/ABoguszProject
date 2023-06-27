@@ -15,6 +15,7 @@
 .project__card {
 	background: #1a1919;
 	padding: 1.2rem 1rem;
+	margin-top: 10px;
 }
 
 .project__card img {
@@ -51,7 +52,7 @@
 	}
 
 	.project__card {
-		height: 90%;
+		height: 100%;
 	}
 
 	.project__card img {
