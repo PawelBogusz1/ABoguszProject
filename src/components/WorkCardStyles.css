@@ -75,7 +75,7 @@
 		/* margin: auto; */
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
-		place-items: start;
+		place-items: center;
 		grid-gap: 5px;
 		padding-bottom: 5rem;
 		margin-left: 50px;
