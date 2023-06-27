@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
   }
 
   if (command !== 'serve') {
-    config.base = '/portfolio2/'
+    config.base = '/Portfolio2/'
   }
 
   return config
