@@ -45,6 +45,7 @@ const ProjectData = [
 		view: "https://marcinzbor.github.io/weatherApi/",
 		source: "https://github.com/MarcinZbor/weatherApi",
 	},
+	
 ];
 
 export default ProjectData;
