@@ -8,16 +8,9 @@ const HeroImg = () => {
 			<div className='mask'>
 			</div>
 			<div className='content'>
-				<p>Hi, I'M A Full Stack Developer</p>
-				<h1>React Developer</h1>
-				<div>
-					<Link to='/project' className='btn'>
-						Project
-					</Link>
-					<Link to='/contact' className='btn btn-light'>
-						Contact
-					</Link>
-				</div>
+				<p>Biblioteka ZSŁ Gdańsk</p>
+				<h1>BIBLIOTEKA SZKOLNA</h1>
+				
 			</div>
 		</div>
 	);
