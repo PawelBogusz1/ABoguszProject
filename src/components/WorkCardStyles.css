@@ -31,7 +31,7 @@
 .project__btn {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 20px;
+	padding-top: 10px;
 	gap: 10px;
 }
 
@@ -60,11 +60,11 @@
 	}
 
 	.project__title {
-		height: 20px;
+		height: 0px;
 	}
 
 	.project__details p {
-		margin-top: 40px;
+		margin-top: 120px;
 		height: 180px;
 	}
 }

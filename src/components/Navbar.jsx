@@ -29,7 +29,7 @@ const Navbar = () => {
 					<Link to='/'>Strona główna</Link>
 				</li>
 				<li>
-					<Link to='/project'>Opinie</Link>
+					<Link to='/opinie'>Opinie</Link>
 				</li>
 				<li>
 					<Link to='/about'>O nas</Link>

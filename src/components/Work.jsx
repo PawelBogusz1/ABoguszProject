@@ -6,7 +6,7 @@ import ProjectData from "../components/WorkCardData"
 const Work = () => {
 	return (
 		<div className='work__container'>
-			<h1 className='project__heading'>Projects</h1>
+			<h1 className='project__heading'>BIBLIOTEKA ZSŁ</h1>
 			<div className='project__container'>
 				{ProjectData.map((value, index) => {
 					return(

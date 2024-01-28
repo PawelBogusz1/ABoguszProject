@@ -2,19 +2,19 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import HeroImg2 from '../components/HeroImg2'
-import Technologies from '../components/Technologies'
+
 import Work from '../components/Work'
 
-const Project = () => {
+const Opinie = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="PROJECTS." text="Discover my projects."/>
+      <HeroImg2 heading="OPINIE" text="Aby zostawić opinie na temat biblioteki wypełnij formularz w polu KONTAKT"/>
       <Work/>
-      <Technologies/>
+   
       <Footer/>
     </div>
   )
 }
 
-export default Project
+export default Opinie

@@ -19,13 +19,7 @@ const WorkCard = (props) => {
 						rel='noopener noreferrer'>
 						View
 					</NavLink>
-					<NavLink
-						to={props.source}
-						target='_blank'
-						className='btn'
-						rel='noopener noreferrer'>
-						Source
-					</NavLink>
+					
 				</div>
 			</div>
 		</div>
