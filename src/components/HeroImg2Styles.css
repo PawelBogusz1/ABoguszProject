@@ -25,6 +25,8 @@
 .hero-img p {
 	font-size: 1.4rem;
 	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .heading {

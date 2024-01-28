@@ -1,6 +1,7 @@
 import "./FooterStyles.css";
 import React from "react";
 import {
+	FaFacebook,
 	FaGithub,
 	FaHome,
 	FaLinkedin,
@@ -18,8 +19,8 @@ const Footer = () => {
 					<div className='location'>
 						<FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
 						<div>
-							<p>Poznan City</p>
-							<p>Poland</p>
+							<p>ZESPÓŁ SZKÓŁ ŁĄCZNOŚCI IM. OBROŃCÓW POCZTY POLSKIEJ W GDAŃSKU</p>
+							<p>Podwale Staromiejskie 51/52, 80-845 Gdańsk</p>
 						</div>
 					</div>
 					<div className='phone'>
@@ -28,7 +29,7 @@ const Footer = () => {
 								size={20}
 								style={{ color: "#fff", marginRight: "2rem" }}
 							/>
-							+48 123 456 789
+							+48 58 301 13 77
 						</h4>
 					</div>
 					<div className='email'>
@@ -37,30 +38,22 @@ const Footer = () => {
 								size={20}
 								style={{ color: "#fff", marginRight: "2rem" }}
 							/>
-							marcinzb@gazeta.pl
+							<a href="mailto:sekretariat@zsl.gda.pl">sekretariat@zsl.gda.pl</a>
 						</h4>
 					</div>
 				</div>
 				{/* Prawy footer */}
 
 				<div className='right'>
-					<h4>About me</h4>
-					<p>Please find below link to my GitHub reposytories and LinkedIn</p>
-					<div className='social'>
-						<Link to='https://github.com/MarcinZbor' target='blank'>
-							<FaGithub
+					<h4>About us</h4>
+									<div className='social'>
+						<Link to='https://www.facebook.com/zslgdansk' target='blank'>
+							<FaFacebook
 								size={30}
 								style={{ color: "#fff", marginRight: "1rem" }}
 							/>
 						</Link>
-						<Link
-							to='https://www.linkedin.com/in/marcin-zboro%C5%84-aa9621141/'
-							target='blank'>
-							<FaLinkedin
-								size={30}
-								style={{ color: "#fff", marginRight: "1rem" }}
-							/>
-						</Link>
+						
 					</div>
 				</div>
 			</div>

@@ -37,6 +37,12 @@ const Navbar = () => {
 				<li>
 					<Link to='/contact'>Kontakt</Link>
 				</li>
+				<li>
+				<a href="#" class="menu-open-btn">
+              <img src="./public/minion.png" class="user-icon" width="34" height="34">
+                          </img>
+            </a>
+				</li>
 			</ul>
 			<div className='hamburger' onClick={handleClick}>
 				{click ? (
