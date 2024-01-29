@@ -38,10 +38,10 @@ const Navbar = () => {
 					<Link to='/contact'>Kontakt</Link>
 				</li>
 				<li>
-				<a href="#" class="menu-open-btn">
+				<Link to='/login'>
               <img src="./public/minion.png" class="user-icon" width="34" height="34">
-                          </img>
-            </a>
+                          </img></Link>
+            
 				</li>
 			</ul>
 			<div className='hamburger' onClick={handleClick}>

@@ -2,10 +2,8 @@ import "./FooterStyles.css";
 import React from "react";
 import {
 	FaFacebook,
-	FaGithub,
 	FaHome,
-	FaLinkedin,
-	FaMailBulk,
+		FaMailBulk,
 	FaPhone,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
