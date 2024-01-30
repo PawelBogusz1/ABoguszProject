@@ -43,7 +43,8 @@
     border: none;
     border-radius: 8px;
     padding: 0 15px;
-    border: 1px solid #d1d1d1;
+    border: 3px solid #d1d1d1;
+    color:black;
   }
   .invalid input {
     border-color: #d93025;
@@ -106,4 +107,41 @@
     color:black;
     font-size: 20px;
     text-align: center;
+      }
+
+  .email:valid {
+    border-color: #4caf50;
+  }
+  .email:invalid {
+    border-color: #f44336;
+  }
+  .user-name:valid {
+    border-color: #4caf50;
+  }
+  .user-name:invalid {
+    border-color: #f44336;
+  }
+  .user-lastname:valid {
+    border-color: #4caf50;
+  }
+  .user-lastname:invalid {
+    border-color: #f44336;
+  }
+  .user-phone:in-range {
+    border-color: #4caf50;
+  }
+  .user-phone:out-of-range {
+    border-color: #f44336;
+  }
+  .password:valid {
+    border-color: #4caf50;
+  }
+  .password:invalid {
+    border-color: #f44336;
+  }
+  .cPassword:valid {
+    border-color: #4caf50;
+  }
+  .cPassword:invalid {
+    border-color: #f44336;
   }
