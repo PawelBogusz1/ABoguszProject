@@ -39,7 +39,7 @@ const Navbar = () => {
 				</li>
 				<li>
 				<Link to='/login'>
-              <img src="./public/minion.png" class="user-icon" width="34" height="34">
+              <img src="./public/minion.png" class="user-icon" width="40" height="44">
                           </img></Link>
             
 				</li>
