@@ -1,0 +1,26 @@
+.dashmenu{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-color: aqua;
+		background-image: url("../assets/intro-medium2.jpg");
+		background-size: cover;
+        background-repeat: no-repeat;
+		
+	}
+
+    .logout-button {
+        height: 50px;
+        width: 100px;
+        margin-top: 30px;
+        color: #fff;
+        padding: 0;
+        border-radius: 10%;
+        background: #dc4a4a;
+        cursor: pointer;
+        border-bottom: 4px solid rgba(0, 0, 0);
+        transition: all 0.3s ease;
+      }
+      .logout-button:hover {
+        background: #d30606;
+      }

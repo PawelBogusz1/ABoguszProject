@@ -8,16 +8,16 @@ const Form = () => {
 			<form
 				action='https://formsubmit.co/980b838f86868bba39e5de878280dbe4'
 				method='POST'>
-				<label>Your name</label>
-				<input type='text' name='name' placeholder='Type your name' />
-				<label>Email</label>
-				<input type='email' name='email' placeholder='Type your email' />
-				<label>Subject</label>
-				<input type='text' placeholder='Type your subject' />
-				<label id='message'>Message</label>
-				<textarea id='message' rows='6' placeholder='Type your msg here'></textarea>
+				<label>Imię</label>
+				<input type='text' name='name' placeholder='Wpisz swoje Imię' />
+				<label>E-mail</label>
+				<input type='email' name='email' placeholder='Wpisz swój e-mail' />
+				<label>Temat</label>
+				<input type='text' placeholder='Wpisz Temat' />
+				<label id='message'>Treść</label>
+				<textarea id='message' rows='6' placeholder='Napisz wiadomość'></textarea>
 				<button type='submit' className='btn'>
-					Submit
+					Wyślij
 				</button>
 			</form>
 		</div>
